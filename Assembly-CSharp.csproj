@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA328BBD-B798-4854-C54F-D8119A2987F2}</ProjectGuid>
+    <ProjectGuid>{918A191C-7B60-FA9E-43A2-5C6C350086E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,8 +65,12 @@
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs" />
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs" />
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
+     <Compile Include="Assets\GameCode\BeAttacked.cs" />
+     <Compile Include="Assets\GameCode\BullestMove.cs" />
+     <Compile Include="Assets\GameCode\SendBullet.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
+     <None Include="Assets\Materials\001 - Bulbasaur\HELP AND README.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />

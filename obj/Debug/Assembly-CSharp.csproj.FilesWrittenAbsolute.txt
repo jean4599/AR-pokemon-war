@@ -1,0 +1,17 @@
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/UnityEngine.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/UnityEditor.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Mono.Cecil.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Unity.DataContract.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/sherrychou/Pokemon-War/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/sherrychou/Pokemon-War/obj/Debug/Assembly-CSharp.dll
+/Users/sherrychou/Pokemon-War/obj/Debug/Assembly-CSharp.dll.mdb

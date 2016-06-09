@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3508856D-AD6A-2DC3-2C4B-EE9E4993171E}</ProjectGuid>
+    <ProjectGuid>{E3355D43-22D0-F164-5099-DF0F999ADD8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -59,6 +59,7 @@
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTransitionalCameraEditor.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
+     <None Include="Assets\Materials\001 - Bulbasaur\HELP AND README.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
@@ -120,7 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FA328BBD-B798-4854-C54F-D8119A2987F2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{918A191C-7B60-FA9E-43A2-5C6C350086E5}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

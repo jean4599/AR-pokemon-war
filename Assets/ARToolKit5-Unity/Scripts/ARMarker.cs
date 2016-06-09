@@ -325,7 +325,7 @@ public class ARMarker : MonoBehaviour
 			//ARController.Log(LogTag + "ARMarker.Update() UID=" + UID + ", visible=" + visible);
 			
             if (visible) {
-				matrixRawArray[12] *= 0.001f; // Scale the position from ARToolKit units (mm) into Unity units (m).
+				matrixRawArray[12] *= 0.001f; // Scale the oposition from ARToolKit units (mm) into Unity units (m).
 				matrixRawArray[13] *= 0.001f;
 				matrixRawArray[14] *= 0.001f;
 
