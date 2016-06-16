@@ -8,6 +8,8 @@ TagManager:
   - Character
   - Glove
   - Target
+  - model
+  - bullet
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - AR background
   - AR background 2
   - AR foreground
-  - 
+  - bullet
   - 
   - 
   - 
