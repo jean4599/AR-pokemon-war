@@ -65,8 +65,6 @@
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs" />
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs" />
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
-     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
-     <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
      <Compile Include="Assets\GameCode\BeAttacked.cs" />
      <Compile Include="Assets\GameCode\BullestMove.cs" />
      <Compile Include="Assets\GameCode\SendBullet.cs" />
