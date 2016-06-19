@@ -3,6 +3,11 @@ using System.Collections;
 
 public class BeAttacked : MonoBehaviour {
 	public lifeBar curLifeBar;
+	public Explode curExplode;
+
+	void Awake(){
+	}
+
 	void Start() {
 	}
 	
@@ -14,6 +19,7 @@ public class BeAttacked : MonoBehaviour {
 		if (other.tag == "bullet") {
 			Debug.Log ("trigger");
 			curLifeBar.enableAttack ();
+			curExplode.enableAttack ();
 			Destroy (other.gameObject);
 		}
 	}

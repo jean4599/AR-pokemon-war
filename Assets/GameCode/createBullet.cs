@@ -3,16 +3,25 @@ using System.Collections;
 
 public class createBullet : MonoBehaviour {
 
-	public GameObject Bullet;
+//	private BullestMove Bullet;
+	private GameObject child;
 	public GameObject parent;
-	public GameObject child;
+	public GameObject Bullet;
+	public GameObject target;
+	private BullestMove bulletsMoveScript;
 
 	private float nextFire = 0.0F;
 	private float fireRate = 0.5F;
 
+	void Awake(){
+		bulletsMoveScript = Bullet.GetComponent<BullestMove>();
+	}
+
 	// Use this for initialization
 	void Start () {
-	
+		bulletsMoveScript.parent = parent;
+		bulletsMoveScript.target = target;
+
 	}
 	
 	// Update is called once per frame
@@ -21,11 +30,13 @@ public class createBullet : MonoBehaviour {
 			Debug.Log ("shoot");
 
 			nextFire = Time.time + fireRate;
-			Vector3 pos = parent.transform.position + new Vector3 (0.05f, 0.015f, 0);
 
-			child = Instantiate (Bullet);
-			child.transform.localPosition = pos;
+			child = Instantiate (Bullet, parent.transform.position, parent.transform.rotation) as GameObject;
+			child.transform.localPosition = parent.transform.position;
 			child.transform.parent = parent.transform;
+
+
+//			Bullet = new BullestMove (target, self, bullet);
 		}
 	}
 }

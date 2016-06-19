@@ -83,6 +83,7 @@ public class ARTrackedObject : MonoBehaviour
 			foreach (ARMarker m in ms) {
 				if (m.Tag == _markerTag) {
 					_marker = m;
+					Debug.Log ("In Trace GGGG: " + _markerTag + " " + m.BarcodeID);
 					break;
 				}
 			}

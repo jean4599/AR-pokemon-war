@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{75960336-99B9-E84C-D80E-DC135FD125BD}") = "AR-pokemon-war2", "Assembly-CSharp.csproj", "{B7D664C9-672F-4A2E-67A1-D615968800E9}"
+EndProject
+Project("{75960336-99B9-E84C-D80E-DC135FD125BD}") = "AR-pokemon-war2", "Assembly-CSharp-Editor.csproj", "{1F4D76DC-7E74-CF3C-DE10-2F692BD11A92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7D664C9-672F-4A2E-67A1-D615968800E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D664C9-672F-4A2E-67A1-D615968800E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D664C9-672F-4A2E-67A1-D615968800E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D664C9-672F-4A2E-67A1-D615968800E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4D76DC-7E74-CF3C-DE10-2F692BD11A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4D76DC-7E74-CF3C-DE10-2F692BD11A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4D76DC-7E74-CF3C-DE10-2F692BD11A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4D76DC-7E74-CF3C-DE10-2F692BD11A92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

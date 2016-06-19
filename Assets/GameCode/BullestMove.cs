@@ -2,19 +2,30 @@
 using System.Collections;
 
 public class BullestMove : MonoBehaviour {
-	private lifeBar enemy;
+
+	public GameObject parent;
+	public GameObject target;
+	private Vector3 pos;
+
+	void Awake(){
+	}
+
+
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start () {	
+		pos = (target.transform.position - parent.transform.position).normalized;
+
 	}
-	
+
 	// Update is called once per frame
-	void Update () {
-		gameObject.transform.position += new Vector3(0.01f,0,0);
-		if (gameObject.transform.position.x > 1 || 
-			gameObject.transform.position.y > 1 || 
-			gameObject.transform.position.z > 1) {
+	void Update () {		
+		Debug.Log ("POS: " + pos + " " + gameObject.transform.position);
+		gameObject.transform.position = gameObject.transform.position + pos;
+
+		if (gameObject.transform.position.x > 50 || 
+			gameObject.transform.position.y > 50 || 
+			gameObject.transform.position.z > 50) {
 
 			Destroy (gameObject);
 		}

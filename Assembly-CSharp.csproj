@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{918A191C-7B60-FA9E-43A2-5C6C350086E5}</ProjectGuid>
+    <ProjectGuid>{B7D664C9-672F-4A2E-67A1-D615968800E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,15 +67,23 @@
      <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
      <Compile Include="Assets\GameCode\BeAttacked.cs" />
      <Compile Include="Assets\GameCode\BullestMove.cs" />
-     <Compile Include="Assets\GameCode\SendBullet.cs" />
+     <Compile Include="Assets\GameCode\Explode.cs" />
+     <Compile Include="Assets\GameCode\LookAtEachOther.cs" />
      <Compile Include="Assets\GameCode\createBullet.cs" />
+     <Compile Include="Assets\GameCode\createShield.cs" />
      <Compile Include="Assets\GameCode\lifeBar.cs" />
      <Compile Include="Assets\GameCode\sheild.cs" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b5.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.spearow.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.bullet1.txt" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.ekans.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b2.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b4.txt" />
+     <None Include="Assets\Tutorial\_x\Resources\Code\Course.v3json.txt" />
+     <None Include="Assets\025 - Pikachu\HELP AND README.txt" />
+     <None Include="Assets\README.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.arbok.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.pidgeot.txt" />
      <None Include="Assets\Materials\001 - Bulbasaur\HELP AND README.txt" />
@@ -84,17 +92,25 @@
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.pidgeotto.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.beedrill.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b3.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.pidgey.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
      <None Include="Assets\shield_shader.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b1.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kakuna.txt" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Code">
+ <HintPath>/Users/sherrychou/AR-pokemon-war2/Assets/Tutorial/_x/Assemblies/Code.dll</HintPath>
+ </Reference>
+ <Reference Include="ToldTutorialFramework">
+ <HintPath>/Users/sherrychou/AR-pokemon-war2/Assets/Tutorial/_x/Assemblies/ToldTutorialFramework.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

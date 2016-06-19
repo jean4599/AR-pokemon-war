@@ -92,7 +92,7 @@ public class ARMarker : MonoBehaviour
     public int UID = NO_ID;      // Current Unique Identifier (UID) assigned to this marker.
 
     // Public members get serialized
-    public MarkerType MarkerType = MarkerType.Square;
+	public MarkerType MarkerType = MarkerType.Square;
     public string Tag = "";
 
     // If the marker is single, then it has a filename and a width

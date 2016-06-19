@@ -108,6 +108,10 @@ public class AROrigin : MonoBehaviour
 				}
 			}
 			ARController.Log(LogTag + "Found " + markersEligibleForBaseMarker.Count + " markers eligible to become base marker.");
+			ARController.Log(LogTag + "check:" + markersEligibleForBaseMarker[0].MarkerType + markersEligibleForBaseMarker[0].BarcodeID + 
+												markersEligibleForBaseMarker[1].MarkerType + markersEligibleForBaseMarker[1].BarcodeID + 
+												markersEligibleForBaseMarker[2].MarkerType + markersEligibleForBaseMarker[2].BarcodeID + 		
+												markersEligibleForBaseMarker[3].MarkerType + markersEligibleForBaseMarker[3].BarcodeID);
 		}
 	}
 
