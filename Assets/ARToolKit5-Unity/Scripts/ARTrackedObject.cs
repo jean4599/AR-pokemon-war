@@ -57,7 +57,10 @@ public class ARTrackedObject : MonoBehaviour
 	// Private fields with accessors.
 	[SerializeField]
 	private string _markerTag = "";					// Unique tag for the marker to get tracking from
-	
+
+	public bool getVisible(){
+		return visible;
+	}
 	
 	public string MarkerTag
 	{

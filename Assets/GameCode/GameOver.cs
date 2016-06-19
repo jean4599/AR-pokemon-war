@@ -4,6 +4,9 @@ using System.Collections;
 public class GameOver : MonoBehaviour {
 	private bool dead;
 	private LookAtEachOther script;
+	public GameObject attackMarker1;
+	public GameObject attackMarker2;
+	public GameObject text;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +19,9 @@ public class GameOver : MonoBehaviour {
 		if (dead) {
 			script.setGameOver ();
 			gameObject.SetActive (false);
+			attackMarker1.SetActive (false);
+			attackMarker2.SetActive (false);
+			text.SetActive (true);
 		}
 	}
 

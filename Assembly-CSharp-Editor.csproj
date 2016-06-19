@@ -60,6 +60,7 @@
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b5.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.spearow.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\LightningBolt\Readme.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.bullet1.txt" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.ekans.txt" />
