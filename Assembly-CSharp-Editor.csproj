@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1F4D76DC-7E74-CF3C-DE10-2F692BD11A92}</ProjectGuid>
+    <ProjectGuid>{E0BCF178-EFDD-AF8E-0C51-EBE739A7932D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -81,6 +81,8 @@
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.pidgey.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
+     <None Include="Assets\Prefabs\PlayStation\readme.txt" />
+     <None Include="Assets\PlayStation\readme.txt" />
      <None Include="Assets\shield_shader.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b1.txt" />
@@ -109,46 +111,22 @@
  <Reference Include="UnityEditor.TreeEditor">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
+ <Reference Include="Code">
+ <HintPath>/Users/Jean/final/AR-pokemon-war/Assets/Tutorial/_x/Assemblies/Code.dll</HintPath>
+ </Reference>
+ <Reference Include="ToldTutorialFramework">
+ <HintPath>/Users/Jean/final/AR-pokemon-war/Assets/Tutorial/_x/Assemblies/ToldTutorialFramework.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.AppleTV.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.LinuxStandalone.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Code">
- <HintPath>/Users/sherrychou/AR-pokemon-war2/Assets/Tutorial/_x/Assemblies/Code.dll</HintPath>
- </Reference>
- <Reference Include="ToldTutorialFramework">
- <HintPath>/Users/sherrychou/AR-pokemon-war2/Assets/Tutorial/_x/Assemblies/ToldTutorialFramework.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>/Applications/Unity/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B7D664C9-672F-4A2E-67A1-D615968800E9}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{609516FD-F1FB-C230-4D72-6FD458DCD0C4}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

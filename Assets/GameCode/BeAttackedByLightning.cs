@@ -5,6 +5,7 @@ public class BeAttackedByLightning : MonoBehaviour {
 	public lifeBar curLifeBar;
 	public GameObject lightningMarker;
 	private bool getAttack;
+	private AudioSource curaudio;
 	private float nextFire = 0.0F;
 	private float fireRate = 0.3F;
 
@@ -13,6 +14,8 @@ public class BeAttackedByLightning : MonoBehaviour {
 
 	void Start() {
 		getAttack = false;
+		curaudio = gameObject.GetComponent<AudioSource> ();
+		curaudio.Stop ();
 	}
 
 	// Update is called once per frame
@@ -22,6 +25,7 @@ public class BeAttackedByLightning : MonoBehaviour {
 			getAttack = lightningMarker.GetComponent<ARTrackedObject> ().getVisible ();
 			if (getAttack) {
 				curLifeBar.enableAttack ();
+				curaudio.Play ();
 			}
 		}
 	}

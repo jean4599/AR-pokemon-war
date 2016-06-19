@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B7D664C9-672F-4A2E-67A1-D615968800E9}</ProjectGuid>
+    <ProjectGuid>{609516FD-F1FB-C230-4D72-6FD458DCD0C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -100,6 +100,8 @@
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\VideoPlaneNoLight.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.pidgey.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\Shaders\Mask.shader" />
+     <None Include="Assets\Prefabs\PlayStation\readme.txt" />
+     <None Include="Assets\PlayStation\readme.txt" />
      <None Include="Assets\shield_shader.shader" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.b1.txt" />
@@ -111,10 +113,10 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Code">
- <HintPath>/Users/sherrychou/AR-pokemon-war2/Assets/Tutorial/_x/Assemblies/Code.dll</HintPath>
+ <HintPath>/Users/Jean/final/AR-pokemon-war/Assets/Tutorial/_x/Assemblies/Code.dll</HintPath>
  </Reference>
  <Reference Include="ToldTutorialFramework">
- <HintPath>/Users/sherrychou/AR-pokemon-war2/Assets/Tutorial/_x/Assemblies/ToldTutorialFramework.dll</HintPath>
+ <HintPath>/Users/Jean/final/AR-pokemon-war/Assets/Tutorial/_x/Assemblies/ToldTutorialFramework.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

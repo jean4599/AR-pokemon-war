@@ -8,10 +8,12 @@ public class GameOver : MonoBehaviour {
 	public GameObject attackMarker2;
 	public GameObject text;
 
+
 	// Use this for initialization
 	void Start () {
 		dead = false;
 		script = gameObject.GetComponent<LookAtEachOther> ();
+
 	}
 	
 	// Update is called once per frame
@@ -22,6 +24,7 @@ public class GameOver : MonoBehaviour {
 			attackMarker1.SetActive (false);
 			attackMarker2.SetActive (false);
 			text.SetActive (true);
+			text.GetComponent<FinalScene> ().playMusic ();
 		}
 	}
 
