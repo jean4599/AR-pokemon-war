@@ -3,14 +3,18 @@ using System.Collections;
 
 public class LookAtEachOther : MonoBehaviour {
 	public GameObject target;
+	private bool gameOver;
 
 	// Use this for initialization
 	void Start () {
+		gameOver = false;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		TurnAround ();
+		if (!gameOver) {
+			TurnAround ();
+		}
 	}
 
 	void TurnAround(){
@@ -22,5 +26,9 @@ public class LookAtEachOther : MonoBehaviour {
 //		Quaternion rotation1 = Quaternion.Euler(pos); 
 		this.gameObject.transform.rotation = Quaternion.Slerp (this.gameObject.transform.rotation, rotation1, Time.deltaTime * 2);
 
+	}
+
+	public void setGameOver(){
+		gameOver = true;
 	}
 }

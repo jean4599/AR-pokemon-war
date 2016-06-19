@@ -68,6 +68,7 @@
      <Compile Include="Assets\GameCode\BeAttacked.cs" />
      <Compile Include="Assets\GameCode\BullestMove.cs" />
      <Compile Include="Assets\GameCode\Explode.cs" />
+     <Compile Include="Assets\GameCode\GameOver.cs" />
      <Compile Include="Assets\GameCode\LookAtEachOther.cs" />
      <Compile Include="Assets\GameCode\createBullet.cs" />
      <Compile Include="Assets\GameCode\createShield.cs" />

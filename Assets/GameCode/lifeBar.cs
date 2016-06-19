@@ -3,6 +3,7 @@ using System.Collections;
 
 public class lifeBar : MonoBehaviour {
 	private bool getAttack;
+	public GameObject model;
 	// Use this for initialization
 	void Start () {
 		getAttack = false;
@@ -13,8 +14,10 @@ public class lifeBar : MonoBehaviour {
 		Vector3 pos = new Vector3 (0.2f,0,0);
 		if (getAttack) {
 			Debug.Log ("get attack");
-			if (this.gameObject.transform.localScale.x > 0) {
+			if (this.gameObject.transform.localScale.x >= 0) {
 				this.gameObject.transform.localScale -= pos;
+			} else {
+				model.GetComponent<GameOver> ().gameOver ();
 			}
 		}
 		getAttack = false;

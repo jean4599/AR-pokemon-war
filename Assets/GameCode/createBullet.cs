@@ -30,11 +30,12 @@ public class createBullet : MonoBehaviour {
 			Debug.Log ("shoot");
 
 			nextFire = Time.time + fireRate;
-
-			child = Instantiate (Bullet, parent.transform.position, parent.transform.rotation) as GameObject;
-			child.transform.localPosition = parent.transform.position;
+			Vector3 pos = (target.transform.position - parent.transform.position).normalized;
+			child = Instantiate (Bullet);
+			child.transform.localPosition = parent.transform.position + pos*0.03f;
 			child.transform.parent = parent.transform;
 
+			Debug.Log ("POS: " + pos + " " + gameObject.transform.position);
 
 //			Bullet = new BullestMove (target, self, bullet);
 		}
