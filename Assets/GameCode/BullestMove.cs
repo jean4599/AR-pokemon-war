@@ -13,7 +13,7 @@ public class BullestMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {	
 		pos = (target.transform.position - parent.transform.position).normalized;
-		pos = pos * 0.04f;
+		pos = pos * 0.08f;
 	}
 
 	// Update is called once per frame
