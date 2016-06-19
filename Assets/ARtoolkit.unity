@@ -144,6 +144,14 @@ Prefab:
       propertyPath: parent
       value: 
       objectReference: {fileID: 138859214}
+    - target: {fileID: 11430108, guid: d637c230119fb4b7093160c5e696673d, type: 2}
+      propertyPath: model
+      value: 
+      objectReference: {fileID: 2116887208}
+    - target: {fileID: 5468948, guid: d637c230119fb4b7093160c5e696673d, type: 2}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11470520, guid: d637c230119fb4b7093160c5e696673d, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d637c230119fb4b7093160c5e696673d, type: 2}
@@ -1426,11 +1434,22 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &857064963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 857064957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3971e6d96ccf49ca8678c1c906501c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1011516166
 Prefab:
   m_ObjectHideFlags: 0
@@ -1494,6 +1513,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11495290, guid: 055f1d52d17464c2a8f1f7483aa0bbb7, type: 2}
+      propertyPath: model
+      value: 
+      objectReference: {fileID: 857064957}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 055f1d52d17464c2a8f1f7483aa0bbb7, type: 2}
   m_IsPrefabParent: 0
@@ -1841,7 +1864,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b31ca2410247042639e4275dedf78431, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b31ca2410247042639e4275dedf78431, type: 3}
       propertyPath: m_LocalScale.x
