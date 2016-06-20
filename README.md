@@ -28,3 +28,9 @@
 # ScreenShot
 
 ![alt tag](https://github.com/jean4599/AR-pokemon-war/blob/master/ScreenShot/screenshot.png)
+
+# Credit
+
+101062129 劉淨   
+102062136 劉臨軒   
+102070028 周欣融  
