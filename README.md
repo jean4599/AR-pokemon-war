@@ -13,14 +13,18 @@
 # How to play
 
   Download or clone the project and open with Unity.
-  Place the marker in front of your camera, you can print the marker from : 
+  Place the marker in front of your camera, you can print the marker from : [Sites Using React](https://github.com/jean4599/AR-pokemon-war/tree/master/Assets/Marker)
   
-  Square marker: show character
-  Barcode marker: attack animation
-  Multi-square marker: background
+  
+  ##  Marker types and effect:
+  +Square marker: show character
+  +Barcode marker: attack animation
+  +Multi-square marker: background
 
 # Environment
 
   ARtoolkit, Unity, C#
   
 # ScreenShot
+
+![alt tag](https://github.com/jean4599/AR-pokemon-war/blob/master/ScreenShot/screenshot.png)
