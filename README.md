@@ -25,9 +25,9 @@
 
   ARtoolkit, Unity, C#
   
-# ScreenShot
+# Demo & ScreenShot
 
-![alt tag](https://github.com/jean4599/AR-pokemon-war/blob/master/ScreenShot/screenshot.png)
+[![Demo](https://github.com/jean4599/AR-pokemon-war/blob/master/ScreenShot/screenshot.png)](https://www.youtube.com/watch?v=_uBzhnW6aLU)
 
 # Credit
 
